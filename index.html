@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Notícias Blog</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#noticias">Notícias</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#perguntas">Perguntas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="noticias">
+            <div class="container">
+                <h2 class="subtitle">Ultimas Notícias</h2>
+            </div>
+    <div id="carousel-primary" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="https://picsum.photos/1920/1080?random=1" alt="">
+                <div class="carousel-caption">
+                    <h2>Notícial Principal 1</h2>
+                    <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum tenetur cupiditate sed at? Laboriosam, quidem saepe obcaecati numquam quae hic voluptatem ex.</strong>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img class="d-block w-100" src="https://picsum.photos/1920/1080?random=2" alt="">
+                <div class="carousel-caption">
+                    <h2>Notícial Principal 2</h2>
+                    <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum tenetur cupiditate sed at? Laboriosam, quidem saepe obcaecati numquam quae hic voluptatem ex.</strong>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="https://picsum.photos/1920/1080?random=3" alt="">
+                <div class="carousel-caption">
+                    <h2>Notícial Principal 3</h2>
+                    <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum tenetur cupiditate sed at? Laboriosam, quidem saepe obcaecati numquam quae hic voluptatem ex,</strong>
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#carousel-primary" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-primary" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-primary" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel-primary" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-primary" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+</section>
+
+    <section id="noticias-sem">
+            <div class="container">
+                <h2 class="subtitle">Notícias da Semana</h2>
+    <div class="row g-2">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-12">
+            <div class="card">
+                <img src="https://picsum.photos/1720/1080?random=1" alt="">
+                <div class="card-body">
+                    <h4>Noticia Semanal - 1</h4>
+                    <h5>Sobre</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit esse magnam laboriosam enim rerum necessitatibus dolorem? Quae dignissimos velit aspernatur ex.</p>
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-primary w-100" href="#">Acessar Notícia</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-12">
+            <div class="card">
+                <img src="https://picsum.photos/1720/1080?random=2" alt="">
+                <div class="card-body">
+                    <h4>Noticia Semanal - 2</h4>
+                    <h5>Sobre</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit esse magnam laboriosam enim rerum necessitatibus dolorem? Quae dignissimos velit aspernatur ex.</p>
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-primary w-100" href="#">Acessar Notícia</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-12">
+            <div class="card card-3">
+                <img src="https://picsum.photos/1720/1080?random=3" alt="">
+                <div class="card-body">
+                    <h4>Noticia Semanal - 3</h4>
+                    <h5>Sobre</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit esse magnam laboriosam enim rerum necessitatibus dolorem? Quae dignissimos velit aspernatur ex.</p>
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-primary w-100" href="#">Acessar Notícia</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+    </section>
+
+    <section id="perguntas">
+        <div class="container">
+            <h2 class="subtitle">
+                Perguntas Frequentes
+            </h2>
+            <div class="accordion accordion-primary">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta1">
+                            Sobre o que é o blog?
+                        </button>
+                    </div>
+                    <div id="resposta1" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus nesciunt minus adipisci reiciendis hic laborum maxime, obcaecati tempora veniam dicta reprehenderit, porro laboriosam doloribus enim debitis! Eum tempora eius possimus!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta1">
+                            Qual o objetivo do blog?
+                        </button>
+                    </div>
+                    <div id="resposta1" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus nesciunt minus adipisci reiciendis hic laborum maxime, obcaecati tempora veniam dicta reprehenderit, porro laboriosam doloribus enim debitis! Eum tempora eius possimus!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta1">
+                            Quando as notícias são atualizadas?
+                        </button>
+                    </div>
+                    <div id="resposta1" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus nesciunt minus adipisci reiciendis hic laborum maxime, obcaecati tempora veniam dicta reprehenderit, porro laboriosam doloribus enim debitis! Eum tempora eius possimus!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta1">
+                            Onde posso mandar mensagem?
+                        </button>
+                    </div>
+                    <div id="resposta1" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus nesciunt minus adipisci reiciendis hic laborum maxime, obcaecati tempora veniam dicta reprehenderit, porro laboriosam doloribus enim debitis! Eum tempora eius possimus!
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container w-50">
+            <h2 class="subtitle">Entre em Contato</h2>
+            <form>
+                <label class="form-label" for="nome">Nome:</label>
+                <input class="form-control" type="text" id="nome">
+                <label class="form-label" for="email">E-mail:</label>
+                <input class="form-control" type="email" id="email">
+                <label class="form-label" for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" class="form-control no-resize"></textarea>
+                <div class="form-check form-switch">
+                    <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do blog</label>
+                    <input class="form-check-input" type="checkbox" id="aceito-termos">
+                </div>
+                <button class="btn btn-primary w-100">Enviar</button>
+            </form>
+        </div>
+    </section>
+    </div>
+    <footer class="footer">
+        <p>
+            &copy; Notícias Blog - Todos os direitos Reservados
+        </p>
+    </footer>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

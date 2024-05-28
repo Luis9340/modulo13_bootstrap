@@ -1,0 +1,91 @@
+body {
+    background-color: #D6E5E3;
+}
+
+.navbar-nav .nav-link.active {
+    color: #517664;
+    background-color: #9FD8CB;
+}
+
+.nav-link {
+    text-align: center;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #9FD8CB;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #517664;
+    z-index: 1050;
+    color: #fff;
+}
+
+.carousel {
+    margin-bottom: 2rem;
+}
+
+.carousel-inner,
+.carousel-item {
+    z-index: 1;
+}
+
+.accordion-primary {
+    margin-top: 2rem;
+}
+
+.no-resize {
+    resize: none;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2rem;
+    color: #517664;
+}
+
+.btn {
+    background-color: #517664;
+}
+
+.btn:hover {
+    background-color: #9FD8CB;
+}
+
+footer {
+    background-color: #517664;
+    margin-top: 2rem;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.625rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+label {
+    font-weight: bold;
+    color: #517664;
+}
+
+.accordion-button {
+    background-color: #517664;
+    color: #fff;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #517664;
+    color: #fff;
+    font-weight: bold;
+}
+
+.accordion-button:focus {
+    background-color: #9FD8CB;
+}
